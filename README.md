@@ -26,7 +26,7 @@ python setup.py build_ext --inplace
 ## 3.项目结构(Repository structure)
 
 ```
-VITS-BigVGAN-Chinese
+VITS-BigVGAN-SpanPSP-Chinese
 ├──benepar
 |   ├──integrations
 |   ├── ...
@@ -125,11 +125,11 @@ python vits_strings_psp.py
 
 ## 7.预训练模型（Pretrained model）
 
-#### weights/pretrained_SpanPSP_Databaker.pt:
+#### bert-base-chinese:
 
 https://pan.baidu.com/s/1Cox0ouFCUKJLemysiLZ4vQ 提取码:7ell
 
-#### bert-base-chinese:
+#### weights/pretrained_SpanPSP_Databaker.pt:
 
 https://pan.baidu.com/s/1twX20z1O_xqMVyq_le4E5g 提取码:p12j
 
