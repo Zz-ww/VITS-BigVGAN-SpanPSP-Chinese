@@ -60,11 +60,15 @@ def main():
 
     wavs = sorted(glob.glob(os.path.join(args.input_path, '*.wav')))
     for wav in wavs[:80]:
+        if not os.path.exists(wav.replace('.wav', '.txt')):
+            continue
         data = preprocess_wav(wav, hparams)
         np.savez(os.path.join(args.output_path, speaker, 'test', os.path.basename(wav).replace('.wav', '.npz')),
                  **data, allow_pickle=False)
 
     for wav in wavs[80:]:
+        if not os.path.exists(wav.replace('.wav', '.txt')):
+            continue
         data = preprocess_wav(wav, hparams)
         np.savez(os.path.join(args.output_path, speaker, 'train', os.path.basename(wav).replace('.wav', '.npz')),
                  **data, allow_pickle=False)
@@ -73,7 +77,6 @@ def main():
 def preprocess_wav(wav, hparams):
     audio, _ = librosa.load(wav, sr=16000)
     audio = audio * hparams.data.max_wav_value
-
     text_file = wav.replace('wav', 'txt')
     with open(text_file, encoding='utf8') as f:
         text = f.readline().rstrip()
