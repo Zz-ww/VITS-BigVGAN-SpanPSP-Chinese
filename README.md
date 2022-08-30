@@ -133,7 +133,7 @@ python vits_strings_psp.py
  #韵律预测结果：
 云雾#2有时#1宛如#1玉带#2平卧#2峰峦#1山涧#3有时#2炊烟#1袅绕#3薄雾#1轻旋#4
  #合成结果：
- ./vits_out/ouput.wav
+ ./vits_out/baker_output.wav
 ```
 
 ## 8.预训练模型（Pretrained model）
