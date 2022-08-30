@@ -26,7 +26,7 @@ python setup.py build_ext --inplace
 ## 3.项目结构(Repository structure)
 
 ```
-VITS-BigVGAN-SpanPSP-Chinese
+VITS-BigVGAN-Chinese
 ├──benepar
 |   ├──integrations
 |   ├── ...
@@ -123,13 +123,26 @@ python vits_strings_psp.py
   猴子#2用#1尾巴#2荡秋千#4。 
 ```
 
-## 7.预训练模型（Pretrained model）
+## 7.合成效果(Results)
 
-#### bert-base-chinese:
+标贝数据集合成效果：
+
+```
+#输入：
+云雾有时宛如玉带平卧峰峦山涧，有时炊烟袅绕，薄雾轻旋。
+ #韵律预测结果：
+云雾#2有时#1宛如#1玉带#2平卧#2峰峦#1山涧#3有时#2炊烟#1袅绕#3薄雾#1轻旋#4
+ #合成结果：
+ ./vits_out/ouput.wav
+```
+
+## 8.预训练模型（Pretrained model）
+
+#### weights/pretrained_SpanPSP_Databaker.pt:
 
 https://pan.baidu.com/s/1Cox0ouFCUKJLemysiLZ4vQ 提取码:7ell
 
-#### weights/pretrained_SpanPSP_Databaker.pt:
+#### bert-base-chinese:
 
 https://pan.baidu.com/s/1twX20z1O_xqMVyq_le4E5g 提取码:p12j
 
