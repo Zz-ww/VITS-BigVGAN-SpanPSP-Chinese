@@ -146,6 +146,20 @@ https://pan.baidu.com/s/1Cox0ouFCUKJLemysiLZ4vQ 提取码:7ell
 
 https://pan.baidu.com/s/1twX20z1O_xqMVyq_le4E5g 提取码:p12j
 
+#### ./logs/baker/G_745000.pth:
+
+链接：https://pan.baidu.com/s/1qxR1AdQAFrOR1QItofwLGA  提取码：n8cs
+
+
+
+## 扩展(extension)
+
+#### 最近在试验基于4k视频的人物换装和物品替换，感兴趣的可以去看看视频展示的效果，我会在空闲时逐步开放项目：
+
+https://github.com/Zz-ww/Virtual-try-on-4kVideo
+
+
+
 ## 参考(Reference)
 
 - BigVGAN: https://arxiv.org/abs/2206.04658
