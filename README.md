@@ -152,9 +152,9 @@ https://pan.baidu.com/s/1twX20z1O_xqMVyq_le4E5g 提取码:p12j
 
 
 
-## 扩展(extension)
+## 扩展(Extension)
 
-#### 最近在试验基于4k视频的人物换装和物品替换，感兴趣的可以去看看视频展示的效果，我会在空闲时逐步开放项目：
+#### 最近在试验基于4k视频的人物换装和物品替换，感兴趣的可以去看看视频展示的效果，我会在空闲时逐步整理代码更新项目：
 
 https://github.com/Zz-ww/Virtual-try-on-4kVideo
 
